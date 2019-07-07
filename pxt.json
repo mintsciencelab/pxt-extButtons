@@ -1,7 +1,7 @@
 {
-    "name": "gamePad",
+    "name": "ExtButtons",
     "version": "0.0.0",
-    "description": "This library is DFRobot gamer:bit provides the game handle control function.",
+    "description": "Extend internal button functionality to external buttons. It is forked from DFRobot/pxt-gamePad",
     "license": "GNU",
     "dependencies": {
         "core": "*",
