@@ -1,19 +1,17 @@
 {
     "name": "ExtButtons",
     "version": "0.0.0",
-<<<<<<< HEAD
     "description": "Extend internal button functionality to external buttons. It is forked from DFRobot/pxt-gamePad",
-=======
-    "description": "Connecting external buttons in order to use them like internal button A & B. It is forked from DFRobot/pxt-gamePad.",
->>>>>>> f32f092d2a774c8222afb4151d3e24a10920d068
     "license": "GNU",
     "dependencies": {
         "core": "*",
+        "radio": "*"
     },
     "files": [
         "README.md",
         "gamerpad.cpp",
-        "main.ts"
+        "main.ts",
+        "_locales/zh/gamePad-strings.json"
     ],
     "testFiles": [
         "test.ts"
