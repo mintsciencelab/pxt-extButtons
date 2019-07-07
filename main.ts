@@ -1,5 +1,5 @@
 /*！
- * @file gamePad/main.ts
+ * @file ExtButtons/main.ts
  * @brief DFRobot's gamer pad makecode library.
  * @n [Get the module here](http://www.dfrobot.com.cn/goods-1577.html)
  * @n This is the microbit dedicated handle library, which provides an API to
@@ -72,7 +72,7 @@ enum GamerBitEvent {
 /**
  * Functions for DFRobot gamer:bit Players.
  */
-//% weight=10 color=#DF6721 icon="\uf11b" block="gamePad"
+//% weight=10 color=#429E9D icon="\u1f532" block="ExtButtons"
 namespace gamePad {
     let PIN_INIT = 0;
 
