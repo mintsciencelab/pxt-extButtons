@@ -1,16 +1,14 @@
 /*！
  * @file ExtButtons/main.ts
- * @brief DFRobot's gamer pad makecode library.
- * @n [Get the module here](http://www.dfrobot.com.cn/goods-1577.html)
- * @n This is the microbit dedicated handle library, which provides an API to
- * control eight buttons, including an led indicator light and a vibrating motor.
+ * @brief Extend button functionality to buttons attached externally.
  *
+ * @copyright [MiNT Science Lab] (https://www.mintsciencelab.com), 2019)
  * @copyright	[DFRobot](http://www.dfrobot.com), 2016
  * @copyright	GNU Lesser General Public License
  *
- * @author [email](1035868977@qq.com)
+ * @author [email](mintsciencelab@gmail.com)
  * @version  V1.0
- * @date  2018-03-20
+ * @date  2019-07-07
  */
 
 /**
@@ -72,7 +70,7 @@ enum GamerBitEvent {
 /**
  * Functions for DFRobot gamer:bit Players.
  */
-//% weight=10 color=#429E9D icon="\u1f532" block="ExtButtons"
+//% weight=10 color=#429E9D icon="\uf11b" block="ExtButtons"
 namespace gamePad {
     let PIN_INIT = 0;
 
