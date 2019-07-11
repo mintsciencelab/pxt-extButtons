@@ -80,24 +80,24 @@ namespace gamePad {
     }
 
     function PinInit(): void {
-        pins.setPull(DigitalPin.P0, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P1, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P2, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P3, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P4, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P5, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P6, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P7, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P8, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P9, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P10, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P11, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P12, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P13, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P14, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P15, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P16, PinPullMode.PullDown);
-        pins.setPull(DigitalPin.P20, PinPullMode.PullDown);
+        pins.setPull(DigitalPin.P0, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P1, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P2, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P3, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P4, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P5, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P6, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P7, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P8, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P9, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P10, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P11, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P12, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P13, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P14, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P15, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P16, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P20, PinPullMode.PullNone);
         PIN_INIT = 1;
         return;
     }
