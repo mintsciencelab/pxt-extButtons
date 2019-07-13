@@ -22,26 +22,8 @@ enum GamerBitPin {
     P1 = <number>DAL.MICROBIT_ID_IO_P1,
     //% block="P2"
     P2 = <number>DAL.MICROBIT_ID_IO_P2,
-    //% block="P3"
-    P3 = <number>DAL.MICROBIT_ID_IO_P3,
-    //% block="P4"
-    P4 = <number>DAL.MICROBIT_ID_IO_P4,
-    //% block="P5"
-    P5 = <number>DAL.MICROBIT_ID_IO_P5,
-    //% block="P6"
-    P6 = <number>DAL.MICROBIT_ID_IO_P6,
-    //% block="P7"
-    P7 = <number>DAL.MICROBIT_ID_IO_P7,
     //% block="P8"
     P8 = <number>DAL.MICROBIT_ID_IO_P8,
-    //% block="P9"
-    P9 = <number>DAL.MICROBIT_ID_IO_P9,
-    //% block="P10"
-    P10 = <number>DAL.MICROBIT_ID_IO_P10,
-    //% block="P11"
-    P11 = <number>DAL.MICROBIT_ID_IO_P11,
-    //% block="P12"
-    P12 = <number>DAL.MICROBIT_ID_IO_P12,
     //% block="P13"
     P13 = <number>DAL.MICROBIT_ID_IO_P13,
     //% block="P14"
@@ -83,16 +65,16 @@ namespace gamePad {
         pins.setPull(DigitalPin.P0, PinPullMode.PullNone);
         pins.setPull(DigitalPin.P1, PinPullMode.PullNone);
         pins.setPull(DigitalPin.P2, PinPullMode.PullNone);
-        pins.setPull(DigitalPin.P3, PinPullMode.PullNone);
-        pins.setPull(DigitalPin.P4, PinPullMode.PullNone);
-        pins.setPull(DigitalPin.P5, PinPullMode.PullNone);
-        pins.setPull(DigitalPin.P6, PinPullMode.PullNone);
-        pins.setPull(DigitalPin.P7, PinPullMode.PullNone);
+        //pins.setPull(DigitalPin.P3, PinPullMode.PullNone);
+        //pins.setPull(DigitalPin.P4, PinPullMode.PullNone);
+        //pins.setPull(DigitalPin.P5, PinPullMode.PullNone);
+        //pins.setPull(DigitalPin.P6, PinPullMode.PullNone);
+        //pins.setPull(DigitalPin.P7, PinPullMode.PullNone);
         pins.setPull(DigitalPin.P8, PinPullMode.PullNone);
-        pins.setPull(DigitalPin.P9, PinPullMode.PullNone);
-        pins.setPull(DigitalPin.P10, PinPullMode.PullNone);
-        pins.setPull(DigitalPin.P11, PinPullMode.PullNone);
-        pins.setPull(DigitalPin.P12, PinPullMode.PullNone);
+        //pins.setPull(DigitalPin.P9, PinPullMode.PullNone);
+        //pins.setPull(DigitalPin.P10, PinPullMode.PullNone);
+        //pins.setPull(DigitalPin.P11, PinPullMode.PullNone);
+        //pins.setPull(DigitalPin.P12, PinPullMode.PullNone);
         pins.setPull(DigitalPin.P13, PinPullMode.PullNone);
         pins.setPull(DigitalPin.P14, PinPullMode.PullNone);
         pins.setPull(DigitalPin.P15, PinPullMode.PullNone);
