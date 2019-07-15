@@ -25,7 +25,7 @@ enum GamerBitPin {
     //% block="P8"
     P8 = <number>DAL.MICROBIT_ID_IO_P8,
     //% block="P12"
-    P13 = <number>DAL.MICROBIT_ID_IO_P13,
+    P13 = <number>DAL.MICROBIT_ID_IO_P12,
     //% block="P13"
     P13 = <number>DAL.MICROBIT_ID_IO_P13,
     //% block="P14"
