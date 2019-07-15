@@ -24,16 +24,12 @@ enum GamerBitPin {
     P2 = <number>DAL.MICROBIT_ID_IO_P2,
     //% block="P8"
     P8 = <number>DAL.MICROBIT_ID_IO_P8,
+    //% block="P12"
+    P13 = <number>DAL.MICROBIT_ID_IO_P13,
     //% block="P13"
     P13 = <number>DAL.MICROBIT_ID_IO_P13,
     //% block="P14"
     P14 = <number>DAL.MICROBIT_ID_IO_P14,
-    //% block="P15"
-    P15 = <number>DAL.MICROBIT_ID_IO_P15,
-    //% block="P16"
-    P16 = <number>DAL.MICROBIT_ID_IO_P16,
-    //% block="P20"
-    P20 = <number>DAL.MICROBIT_ID_IO_P20,
 }
 
 /**
@@ -74,12 +70,12 @@ namespace gamePad {
         //pins.setPull(DigitalPin.P9, PinPullMode.PullNone);
         //pins.setPull(DigitalPin.P10, PinPullMode.PullNone);
         //pins.setPull(DigitalPin.P11, PinPullMode.PullNone);
-        //pins.setPull(DigitalPin.P12, PinPullMode.PullNone);
+        pins.setPull(DigitalPin.P12, PinPullMode.PullNone);
         pins.setPull(DigitalPin.P13, PinPullMode.PullNone);
         pins.setPull(DigitalPin.P14, PinPullMode.PullNone);
-        pins.setPull(DigitalPin.P15, PinPullMode.PullNone);
-        pins.setPull(DigitalPin.P16, PinPullMode.PullNone);
-        pins.setPull(DigitalPin.P20, PinPullMode.PullNone);
+        //pins.setPull(DigitalPin.P15, PinPullMode.PullNone);
+        //pins.setPull(DigitalPin.P16, PinPullMode.PullNone);
+        //pins.setPull(DigitalPin.P20, PinPullMode.PullNone);
         PIN_INIT = 1;
         return;
     }
